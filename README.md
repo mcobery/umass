@@ -1,4 +1,4 @@
-umass
+UMASS
 =====
 
-Course materials
+Course materials for UMass Lowell course
