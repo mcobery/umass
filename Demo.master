@@ -45,16 +45,17 @@
             font-size:8.0pt;
             font-family:"Arial","sans-serif";
         }
+        .uml-height
+        {
+            height: 400px;
+        }
         .uml-nav
         {
             background-color:green;
-            width: 200px;
-            height: 400px;
         }
-        .content
+        .uml-content
         {
             background-color:white;
-            height: 100%;
             font-size:11.0pt;
             color:black;
             font-family:"Arial","sans-serif";
@@ -70,16 +71,16 @@
 </head>
 <body>
   <form id="form1" runat="server">
-    <div class="container bs-docs-container">
-        <div class="row">
-            <div class="col-md-12 uml-header">
+    <div class="container-fluid bs-docs-container">
+        <div class="row uml-header">
+            <div class="col-xs-12">
                 <asp:ContentPlaceHolder ID="header" runat="server">
                 </asp:ContentPlaceHolder>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-3 uml-nav">
+            <div class="col-xs-3 uml-height uml-nav">
                 <div class="bs-sidebar hidden-print" role="complementary">
                     <ul class="nav bs-sidenav">
 
@@ -89,7 +90,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-9" role="main">
+            <div class="col-xs-5 uml-height uml-content">
 
                 <asp:ContentPlaceHolder ID="main" runat="server">
                 </asp:ContentPlaceHolder>
@@ -98,7 +99,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12 uml-footer">
+            <div class="col-xs-12 uml-footer">
                 <asp:ContentPlaceHolder ID="footer" runat="server">
                 </asp:ContentPlaceHolder>
             </div>
