@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="Main"  description="The main part of our site">
+    <siteMapNode url="Default.aspx" title="Default"  description="The default landing page"/>
+    <siteMapNode url="LocalTeam.aspx" title="Local Team"  description="The local team of direct reports"/>
+    </siteMapNode>
+</siteMap>
