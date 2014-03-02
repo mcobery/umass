@@ -20,7 +20,7 @@ DECLARE @UserId uniqueidentifier
 DECLARE @now datetime
 SET @now= GETDATE()
 
-SELECT @ApplicationName='/', @UserName='mcobery', @Password='password?', @PasswordSalt='',
+SELECT @ApplicationName='Demo', @UserName='mcobery', @Password='password?', @PasswordSalt='',
        @Email='marc_cobery@uml.edu', @PasswordQuestion='Who?', @PasswordAnswer='Me',
 	   @IsApproved=1, @CurrentTimeUtc=@now, @CreateDate=@now, 
 	   @UniqueEmail=0, @PasswordFormat=0

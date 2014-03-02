@@ -6,7 +6,7 @@ DECLARE @RC int
 DECLARE @ApplicationName nvarchar(256)
 DECLARE @ApplicationId uniqueidentifier
 
-SELECT @ApplicationName = '/'
+SELECT @ApplicationName = 'Demo'
 
 EXECUTE @RC = [dbo].[aspnet_Applications_CreateApplication] 
    @ApplicationName
