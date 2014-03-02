@@ -27,7 +27,7 @@ namespace Demo
             //Next, determine if the user's username/password are valid
             if (Membership.ValidateUser(loginUsername, loginPassword))
             {
-                //Next, set the Authenticated value ot true so the redirection happens
+                //Next, set the Authenticated value to true so the redirection happens
                 e.Authenticated = true;
                 //Next, check which role we are in and send to the appropriate page.
                 if (this.loginDemo.DestinationPageUrl == null
