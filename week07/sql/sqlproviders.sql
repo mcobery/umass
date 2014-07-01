@@ -3,10 +3,9 @@
 /*                                                                    */
 /* Installs the tables, triggers and stored procedures necessary for  */
 /* supporting some features of ASP.Net                                */
-/*
-** Copyright Microsoft, Inc. 2003
-** All Rights Reserved.
-*/
+/*                                                                    */
+/* Copyright Microsoft, Inc. 2003                                     */
+/*                                                                    */
 /**********************************************************************/
 
 PRINT '---------------------------------------'
@@ -742,10 +741,9 @@ PRINT '----------------------------------------'
 /* supporting the aspnet feature of ASP.Net                           */
 /*                                                                    */
 /* InstallCommon.sql must be run before running this file.            */
-/*
-** Copyright Microsoft, Inc. 2002
-** All Rights Reserved.
-*/
+/*                                                                    */
+/* Copyright Microsoft, Inc. 2003                                     */
+/*                                                                    */
 /**********************************************************************/
 
 PRINT '-------------------------------------------'
@@ -2308,10 +2306,8 @@ PRINT '--------------------------------------------'
 /* supporting the aspnet feature of ASP.Net                           */
 /*                                                                    */
 /* InstallCommon.sql must be run before running this file.            */
-/*
-** Copyright Microsoft, Inc. 2002
-** All Rights Reserved.
-*/
+/* Copyright Microsoft, Inc. 2003                                     */
+/*                                                                    */
 /**********************************************************************/
 
 PRINT '------------------------------------------------'
@@ -2916,10 +2912,8 @@ PRINT '-------------------------------------------------'
 /* supporting the aspnet feature of ASP.Net                           */
 /*                                                                    */
 /* InstallCommon.sql must be run before running this file.            */
-/*
-** Copyright Microsoft, Inc. 2002
-** All Rights Reserved.
-*/
+/* Copyright Microsoft, Inc. 2003                                     */
+/*                                                                    */
 /**********************************************************************/
 
 PRINT '--------------------------------------'
@@ -2940,23 +2934,6 @@ GO
 /*************************************************************/
 /*************************************************************/
 /*************************************************************/
-
-/*
-DECLARE @dbname nvarchar(128)
-
-SET @dbname = N'aspnetdb'
-
-IF (NOT EXISTS (SELECT name
-                FROM master.dbo.sysdatabases
-                WHERE ('[' + name + ']' = @dbname OR name = @dbname)))
-BEGIN
-  RAISERROR('The database ''%s'' cannot be found. Please run InstallCommon.sql first.', 18, 1, @dbname)
-END
-GO
-
-USE [aspnetdb]
-GO
-*/
 
 IF (NOT EXISTS (SELECT name
                 FROM sysobjects
@@ -4009,10 +3986,8 @@ PRINT '---------------------------------------'
 /* supporting the personalization feature of ASP.NET                  */
 /*                                                                    */
 /* InstallCommon.sql must be run before running this file.            */
-/*
-** Copyright Microsoft, Inc. 2002
-** All Rights Reserved.
-*/
+/* Copyright Microsoft, Inc. 2003                                     */
+/*                                                                    */
 /**********************************************************************/
 
 PRINT '------------------------------------------------'
@@ -4877,10 +4852,8 @@ PRINT '-------------------------------------------------'
 /* supporting the aspnet feature of ASP.Net                           */
 /*                                                                    */
 /* InstallCommon.sql must be run before running this file.            */
-/*
-** Copyright Microsoft, Inc. 2003
-** All Rights Reserved.
-*/
+/* Copyright Microsoft, Inc. 2003                                     */
+/*                                                                    */
 /**********************************************************************/
 
 PRINT '----------------------------------------------------'
